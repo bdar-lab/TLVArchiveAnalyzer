@@ -61,22 +61,18 @@ Model and Prediction Process
 1920-1925 - not relevent, if catagory 1 exist, the year is marked.
 
 Category Weights per Period
+
 Period
-category1
-category2
-category3
+category1; category2; category3
+
 1926-1943
-0.510753
-0.238028
-0.163686
+0.510753; 0.238028; 0.163686
+
 1944-1985
-0.321881
-0.283602
-0.53169
+0.321881; 0.283602; 0.53169
+
 1986-2021
-0.332795
-0.424807
-0.559186
+0.332795; 0.424807; 0.559186
  
 Note: These weights are calculated dynamically based on the input data.
 
