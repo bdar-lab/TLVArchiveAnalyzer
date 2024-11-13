@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 TLVArchiveAnalyzer project
 This script receives:
@@ -21,9 +23,9 @@ import pyarrow.parquet as pq
 
 
 # Define category lists by document types
-CATEGORY1 = ["ÔÙêè-êÛàÙê ×êÕÞÔ", "ÔÙêè ÞÙÜÕÜÙ ×êÕÝ"]
-CATEGORY2 = ["ÔÕÓâê éÕÞÔ âÜ ÔÙØÜ ÔéÑ×Ô,ÐÒèÕê ÑàÙÔ,éÕÑèÙ êéÜÕÝ"]
-CATEGORY3 = ["êâÕÓê ÒÞè", "êÙç êâÕÓê ÒÞè", "ØÕäá 4", "ØÕäá 1"]
+CATEGORY1 = ["היתר-תכנית חתומה", "היתר מילולי חתום"]
+CATEGORY2 = ["הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום"]
+CATEGORY3 = ["תעודת גמר", "תיק תעודת גמר", "טופס 4", "טופס 1"]
 CATEGORIES = {"category1" :CATEGORY1,
               "category2": CATEGORY2,
               "category3": CATEGORY3}
